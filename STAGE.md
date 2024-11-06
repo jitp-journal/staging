@@ -17,8 +17,8 @@ Stagers can now use built-in Styles features in your favorite word processors to
 
 Here are the relevant files:
 
-* [MS Word style template](src/jitp-staging-test.dotx)
-* [OpenOffice style template](src/jitp-staging-test.odt)
+* [MS Word style template](src/jitp-staging.dotx)
+* [OpenOffice style template](src/jitp-staging.odt)
 
 If you open them, you'll see guidance for which styles apply to which elements of a typical JITP document.
 
@@ -103,7 +103,7 @@ You're now ready to upload the .zip file to Manifold! We'll make sure everything
 
 ### Making changes, if necessary
 
-If something is *systematically* wrong, we should probably fix the script. Check the [issue queue](https://github.com/jitp-journal/staging-test/issues) to see if someone's already logged the bug, and if not, please create a new one.
+If something is *systematically* wrong, we should probably fix the script. Check the [issue queue](https://github.com/jitp-journal/staging/issues) to see if someone's already logged the bug, and if not, please create a new one.
 
 If anything looks *individually* off, you'll need to go back to the relevant file, make the change, and repeat the process above. (We're hoping this kind of small-scale editing will become easier in future Manifold releases.)
 
