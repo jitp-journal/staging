@@ -20,9 +20,13 @@ Here are the relevant files:
 * [MS Word style template](src/jitp-staging.dotx)
 * [OpenOffice style template](src/jitp-staging.odt)
 
-If you open them, you'll see guidance for which styles apply to which elements of a typical JITP document.
+_NB: Instead of right-clicking and saving directly from those links, you may need to click through to those pages and click the download button:_
 
-But before you can begin marking up a document for staging, you will first have to **attach the templates to the files**, so the styles become available to apply.
+![download button](src/download-raw.png)
+
+If you open either template, you'll see guidance for which styles apply to which elements of a typical JITP document.
+
+But **before you can begin marking up a document** for staging, you will first have to **attach the templates to the files**, so the styles become available to apply.
 
 * On Word for Mac, this means using the Tools menu > Templates & Add-Ins > click the Attach button > navigate to & select the template file.
 * On Word for Windows, the location varies by edition, but the steps are outlined in [official support documentation](https://support.microsoft.com/en-us/office/load-or-unload-a-template-or-add-in-program-2479fe53-f849-4394-88bb-2a6e2a39479d#bm1).
