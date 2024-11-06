@@ -68,9 +68,9 @@ figure {
     font-size: 0.8em;
 }
 
+/* lists in figures should be tighter */
 figure ul, figure ol {
-  /* only lists in figures */
-    margin: 0 0 0 .5em;
+     margin: 0 0 0 .5em;
     padding: 0 0 0 1em;
 }
 
@@ -78,6 +78,14 @@ figcaption, caption {
     text-align: center;
     font-size: 0.8em;
 }
+
+/* if a figure contains a blockquote, it probably
+   used to be a picture of text. In that case, let's
+   leave the alignment alone (instead of centering)*/
+figure blockquote {
+  text-align: initial;
+}
+
 
 caption {
     caption-side: bottom;
