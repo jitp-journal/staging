@@ -129,6 +129,7 @@ If anything looks *individually* off, you'll need to go back to the relevant fil
 
 When you're done making changes and want to confirm that they worked, compress the folder again as in [step 3](#3-preparing-for-manifold) above, then head back to Manifold. You can use the "Reingest" menu item on that specific text's admin view to avoid creating multiple copies of the same article.
 
+**NB: You will have to do a hard-refresh (cmd/ctrl+R) to refresh the cache on your browser** before you can see the reingested pages. So don't panic if it looks like it didn't work. Refresh and reassess!
 
 ## 5. Done!
 
