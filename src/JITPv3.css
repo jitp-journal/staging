@@ -108,6 +108,23 @@ th, td {
     font-size: 0.8em;
 }
 
+/* Sometimes tables have nested headings */
+thead tr:not(tr:first-of-type) th, tbody th:not(th[colspan]) {
+    background-color: initial;
+    font-style: italic;
+}
+
+/* And sometimes there are row groups: 
+   represent each group as a <tbody> with its own <th>, 
+   spanning the width of the table */
+tbody th[colspan] {
+    /* font-weight: initial; */
+    background-color: var(--color-annotation-secondary-pale);
+    text-align: initial;
+}
+
+
+
 /*===ACCESSIBILITY===*/
 /* Class to present content only to screen readers (thus sr) but hidden visually */
 
