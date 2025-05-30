@@ -109,17 +109,19 @@ th, td {
 }
 
 /* Sometimes tables have nested headings */
+/* See, e.g. Issue 26, "Fostering Quantitative Reasoning" (Zapparrata et al), table 1 */
 thead tr:not(tr:first-of-type) th, tbody th:not(th[colspan]) {
     background-color: initial;
     font-style: italic;
 }
 
-/* And sometimes there are row groups: 
-   represent each group as a <tbody> with its own <th>, 
+/* And sometimes there are row groups:
+   represent each group as a <tbody> with its own <th>,
    spanning the width of the table */
+/* See, again, Issue 26, "Fostering Quantitative Reasoning" (Zapparrata et al), table 5 */
 tbody th[colspan] {
     /* font-weight: initial; */
-    background-color: var(--color-annotation-secondary-pale);
+    background-color: #edf2f5;
     text-align: initial;
 }
 
