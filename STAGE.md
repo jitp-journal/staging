@@ -38,7 +38,7 @@ But **before you can begin marking up a document** for staging, you will first h
 
 If you see the option to do so, check the box for **automatically update document styles**.
 
-NB: If you're loading the template but nothing seems to change, try detaching the template using the same menus as above, and then reattach it again. It's a bit of a kludge, but it seems to help. `¯\_(ツ)_/¯`
+NB: If you're loading the template but nothing seems to change, try detaching the template using the same menus as above, and then reattach it again. Or close the file and open it again. It's a bit of kludge-work, but it seems to help. `¯\_(ツ)_/¯`
 
 ### 1c. Apply the template styles
 
