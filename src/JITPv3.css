@@ -79,6 +79,12 @@ figcaption, caption {
     font-size: 0.8em;
 }
 
+/* Directly adjacent figures should be more clearly separated */
+figure + figure {
+    padding-top: 2.5em;
+    border-top: 1px dotted #aaa;
+}
+
 /* if a figure contains a blockquote, it probably
    used to be a picture of text. In that case, let's
    leave the alignment alone (instead of centering)*/
